@@ -9,7 +9,15 @@
       "isolateState": true,
       "metadata": {
         "createdAt": "2025-12-04T21:46:02.157Z",
-        "updatedAt": "2025-12-04T21:46:02.157Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "chains/alaotalotalotalot_chain_17.json",
+          "html_url": "https://github.com/JumaOchieng/ChromeTest/blob/main/chains/alaotalotalotalot_chain_17.json",
+          "lastCommitHash": "2ad748488be3fcc30de3930e94225dde182fafe4",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "syncStatus": "pushed"
+        },
+        "updatedAt": "2025-12-04T21:51:24.747Z"
       },
       "name": "alaotalotalotalot",
       "retryCount": 0,
@@ -23,7 +31,15 @@
     },
     "metadata": {
       "createdAt": "2025-12-04T21:46:02.157Z",
-      "updatedAt": "2025-12-04T21:46:02.157Z"
+      "gitHubLink": {
+        "branch": "main",
+        "filePath": "chains/alaotalotalotalot_chain_17.json",
+        "html_url": "https://github.com/JumaOchieng/ChromeTest/blob/main/chains/alaotalotalotalot_chain_17.json",
+        "lastCommitHash": "2ad748488be3fcc30de3930e94225dde182fafe4",
+        "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+        "syncStatus": "pushed"
+      },
+      "updatedAt": "2025-12-04T21:51:24.747Z"
     }
   }
 }
