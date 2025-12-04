@@ -20,7 +20,7 @@
     "metadata": {
       "createdAt": "2025-12-04T21:50:08.258Z",
       "gitHubLink": {
-        "branch": "main",
+        "branch": "feature/solid-refactoring",
         "filePath": "suites/___gin___juice___complete_test_suite__pass___fail__gin_juic.json",
         "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
         "source": "local",

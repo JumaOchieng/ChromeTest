@@ -13,26 +13,23 @@
       "timeout": 30000
     },
     "flows": [
+      "flow_1764884723586_8cyqjkgds",
+      "chrome_example_1764885008231",
       "flow_1764883254428_1b0r9u8yh"
     ],
-    "id": "suite_1764883298578",
+    "id": "suite_1764885528104",
     "metadata": {
-      "createdAt": "2025-12-04T21:21:38.578Z",
-      "gitHubLink": {
-        "branch": "feature/solid-refactoring",
-        "filePath": "suites/ygygygygygyg_suite_17.json",
-        "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-        "source": "local",
-        "syncStatus": "exported"
-      },
+      "createdAt": "2025-12-04T21:58:48.104Z",
       "totalRuns": 0,
-      "updatedAt": "2025-12-04T21:21:38.584Z"
+      "updatedAt": "2025-12-04T21:58:48.104Z"
     },
-    "name": "ygygygygygyg",
+    "name": "beleievwweqweqweqweqwe",
     "testData": {
       "compatibilityStatus": "compatible",
       "flowTestDataMap": {
-        "flow_1764883254428_1b0r9u8yh": "none"
+        "chrome_example_1764885008231": "none",
+        "flow_1764883254428_1b0r9u8yh": "none",
+        "flow_1764884723586_8cyqjkgds": "none"
       },
       "type": "none",
       "warnings": []
