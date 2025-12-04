@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "chain": {
+    "id": "chain_1764883316247",
+    "name": "uyuyuyuyuyuyuu",
+    "config": {
+      "continueOnFailure": false,
+      "id": "chain_1764883316247",
+      "isolateState": true,
+      "metadata": {
+        "createdAt": "2025-12-04T21:21:56.247Z",
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "chains/uyuyuyuyuyuyuu_chain_17.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-04T21:21:56.255Z"
+      },
+      "name": "uyuyuyuyuyuyuu",
+      "retryCount": 0,
+      "retryFailedSuites": false,
+      "sharedState": false,
+      "stopOnFailure": true,
+      "suiteIds": [
+        "suite_1764883298578"
+      ],
+      "timeoutMs": 300000
+    },
+    "metadata": {
+      "createdAt": "2025-12-04T21:21:56.247Z",
+      "updatedAt": "2025-12-04T21:21:56.255Z"
+    }
+  }
+}
