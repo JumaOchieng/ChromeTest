@@ -7,31 +7,31 @@
       "generateReport": true,
       "parallel": false,
       "retryCount": 0,
-      "setupFlowId": "gin_juice_login_1764884708482",
+      "setupFlowId": "gin_juice_login_1764885008231",
       "stopOnFailure": false,
-      "teardownFlowId": "gin_juice_logout_1764884708485",
+      "teardownFlowId": "gin_juice_logout_1764885008234",
       "timeout": 30000
     },
     "flows": [
-      "gin_juice_browse_1764884708483",
-      "gin_juice_failing_1764884708486"
+      "gin_juice_browse_1764885008232",
+      "gin_juice_failing_1764885008235"
     ],
     "id": "gin_juice_suite_example",
     "metadata": {
-      "createdAt": "2025-12-04T21:45:08.485Z",
+      "createdAt": "2025-12-04T21:50:08.258Z",
       "testDataId": "gin_juice_test_data",
       "totalRuns": 0,
-      "updatedAt": "2025-12-04T21:45:08.485Z"
+      "updatedAt": "2025-12-04T21:50:08.258Z"
     },
     "name": "🧪 Gin & Juice - Complete Test Suite (Pass & Fail)",
     "testData": {
       "compatibilityStatus": "compatible",
       "fileId": "gin_juice_test_data",
       "flowTestDataMap": {
-        "gin_juice_browse_1764884708483": "gin_juice_test_data",
-        "gin_juice_failing_1764884708486": "gin_juice_test_data",
-        "gin_juice_login_1764884708482": "gin_juice_test_data",
-        "gin_juice_logout_1764884708485": "gin_juice_test_data"
+        "gin_juice_browse_1764885008232": "gin_juice_test_data",
+        "gin_juice_failing_1764885008235": "gin_juice_test_data",
+        "gin_juice_login_1764885008231": "gin_juice_test_data",
+        "gin_juice_logout_1764885008234": "gin_juice_test_data"
       },
       "type": "file",
       "warnings": []
