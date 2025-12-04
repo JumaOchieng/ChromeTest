@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "chain": {
+    "id": "chain_1764885545853",
+    "name": "beleievwweqweqweqweqwe",
+    "config": {
+      "continueOnFailure": false,
+      "id": "chain_1764885545853",
+      "isolateState": true,
+      "metadata": {
+        "createdAt": "2025-12-04T21:59:05.853Z",
+        "updatedAt": "2025-12-04T21:59:05.853Z"
+      },
+      "name": "beleievwweqweqweqweqwe",
+      "retryCount": 0,
+      "retryFailedSuites": false,
+      "sharedState": false,
+      "stopOnFailure": true,
+      "suiteIds": [
+        "suite_1764885528104"
+      ],
+      "timeoutMs": 300000
+    },
+    "metadata": {
+      "createdAt": "2025-12-04T21:59:05.853Z",
+      "updatedAt": "2025-12-04T21:59:05.853Z"
+    }
+  }
+}
