@@ -1,0 +1,27 @@
+{
+  "_optimized": true,
+  "_optimizedSize": 442,
+  "_originalSize": 442,
+  "commands": [
+    {
+      "id": "cmd_1764885511285_qas6j77l7",
+      "timestamp": 1764885511285,
+      "type": "navigate",
+      "value": "https://betterqa.co/self-healing-demo/"
+    }
+  ],
+  "deviceType": "desktop",
+  "id": "flow_1764885510693_cyi46v4ha",
+  "metadata": {
+    "createdAt": "2025-12-04T21:58:30.694Z",
+    "duration": 2668,
+    "pageCount": 1,
+    "updatedAt": "2025-12-04T21:58:33.362Z",
+    "url": "https://betterqa.co/self-healing-demo/",
+    "viewport": {
+      "height": 732,
+      "width": 1470
+    }
+  },
+  "name": "beleievwweqweqweqweqwe"
+}

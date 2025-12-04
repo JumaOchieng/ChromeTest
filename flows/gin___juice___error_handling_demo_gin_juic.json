@@ -121,7 +121,7 @@
     "createdAt": "2025-12-04T21:45:08.482Z",
     "duration": 0,
     "gitHubLink": {
-      "branch": "main",
+      "branch": "feature/solid-refactoring",
       "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
       "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
       "source": "local",
