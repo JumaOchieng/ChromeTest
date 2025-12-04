@@ -19,6 +19,13 @@
     "id": "gin_juice_suite_example",
     "metadata": {
       "createdAt": "2025-12-04T21:50:08.258Z",
+      "gitHubLink": {
+        "branch": "main",
+        "filePath": "suites/___gin___juice___complete_test_suite__pass___fail__gin_juic.json",
+        "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+        "source": "local",
+        "syncStatus": "exported"
+      },
       "testDataId": "gin_juice_test_data",
       "totalRuns": 0,
       "updatedAt": "2025-12-04T21:50:08.258Z"
