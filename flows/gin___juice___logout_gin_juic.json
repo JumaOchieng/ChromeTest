@@ -1,0 +1,84 @@
+{
+  "commands": [
+    {
+      "description": "Navigate to my account page",
+      "id": "cmd_1764883242752_35_8xtmzca0y",
+      "target": {
+        "alternatives": {},
+        "primary": "https://ginandjuice.shop/my-account",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "navigate",
+      "value": "https://ginandjuice.shop/my-account"
+    },
+    {
+      "description": "Hover over account icon to show menu",
+      "id": "cmd_1764883242752_36_xpfdimmbp",
+      "target": {
+        "alternatives": {
+          "css": "a.account-icon.is-logged-in",
+          "xpath": "//a[contains(@class, \"account-icon\") and contains(@class, \"is-logged-in\")]"
+        },
+        "primary": "a.account-icon.is-logged-in",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "hover",
+      "value": ""
+    },
+    {
+      "description": "Click logout link",
+      "id": "cmd_1764883242752_37_u9dx6y5zw",
+      "target": {
+        "alternatives": {
+          "xpath": "//a[normalize-space()='Log out']"
+        },
+        "primary": "//a[normalize-space()='Log out']",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "click",
+      "value": ""
+    },
+    {
+      "description": "Verify my-account link exists (confirms logout)",
+      "id": "cmd_1764883242752_38_g0tvfbxwm",
+      "target": {
+        "alternatives": {
+          "css": ".secondary-links a[href=\"/my-account\"]",
+          "xpath": "//a[@href=\"/my-account\"][contains(text(), \"Log in\")]"
+        },
+        "primary": "a[href=\"/my-account\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "assert",
+      "value": "exists"
+    }
+  ],
+  "description": "Logout flow using hover menu",
+  "deviceType": "desktop",
+  "id": "gin_juice_logout_1764883242755",
+  "metadata": {
+    "createdAt": "2025-12-04T21:20:42.752Z",
+    "duration": 0,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/gin___juice___logout_gin_juic.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "recommendedOptions": {
+      "smartWaits": true
+    },
+    "updatedAt": "2025-12-04T21:20:42.752Z"
+  },
+  "name": "Gin & Juice - Logout",
+  "project": "Examples",
+  "tags": [
+    "demo"
+  ],
+  "testDataFileId": "gin_juice_test_data"
+}

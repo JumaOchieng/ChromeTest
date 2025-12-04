@@ -1,0 +1,108 @@
+{
+  "commands": [
+    {
+      "description": "Navigate to Google",
+      "id": "cmd_1764883242752_1_vzw2srf9n",
+      "timestamp": 1764883242752,
+      "type": "navigate",
+      "value": "https://www.google.com/ncr"
+    },
+    {
+      "description": "Wait for search box",
+      "id": "cmd_1764883242752_2_pxx4h8ktr",
+      "target": {
+        "alternatives": {
+          "css": "#APjFqb",
+          "name": "q",
+          "xpath": "//textarea[@name=\"q\"]"
+        },
+        "primary": "textarea[name=\"q\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "waitForElement",
+      "value": "10000"
+    },
+    {
+      "description": "Type search query",
+      "id": "cmd_1764883242752_3_3ig6oqsw1",
+      "target": {
+        "alternatives": {
+          "css": "#APjFqb",
+          "name": "q"
+        },
+        "primary": "textarea[name=\"q\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "type",
+      "value": "{{searchQuery}}"
+    },
+    {
+      "description": "Submit search",
+      "id": "cmd_1764883242752_4_mfo8g4pk0",
+      "target": {
+        "alternatives": {
+          "css": "#APjFqb",
+          "name": "q",
+          "xpath": "//textarea[@name=\"q\"]"
+        },
+        "primary": "textarea[name=\"q\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "keyPress",
+      "value": "Enter"
+    },
+    {
+      "description": "Wait for search results",
+      "id": "cmd_1764883242752_5_dprapybs0",
+      "target": {
+        "alternatives": {
+          "id": "search",
+          "xpath": "//div[@id=\"search\"]"
+        },
+        "primary": "#search",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "waitForElement",
+      "value": "10000"
+    },
+    {
+      "description": "Verify search results",
+      "id": "cmd_1764883242752_6_d82ltadim",
+      "target": {
+        "alternatives": {},
+        "primary": "#result-stats",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "assert",
+      "value": "textContains:{{expectedResults}}"
+    }
+  ],
+  "description": "Example flow showing how to search on Google (uses global variables)",
+  "deviceType": "desktop",
+  "id": "chrome_example_1764883242752",
+  "metadata": {
+    "createdAt": "2025-12-04T21:20:42.752Z",
+    "duration": 0,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/___tutorial__google_search_chrome_e.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "recommendedOptions": {
+      "smartWaits": true
+    },
+    "updatedAt": "2025-12-04T21:20:42.752Z"
+  },
+  "name": "📚 Tutorial: Google Search",
+  "project": "Examples",
+  "tags": [
+    "demo"
+  ]
+}

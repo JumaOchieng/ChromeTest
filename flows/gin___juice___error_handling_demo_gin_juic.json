@@ -1,0 +1,141 @@
+{
+  "commands": [
+    {
+      "description": "Navigate to catalog page",
+      "id": "cmd_1764883242752_41_slsyzasgc",
+      "target": {
+        "alternatives": {},
+        "primary": "https://ginandjuice.shop/catalog",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "navigate",
+      "value": "https://ginandjuice.shop/catalog"
+    },
+    {
+      "description": "Wait for page to load",
+      "id": "cmd_1764883242752_42_3dwnx7gvo",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "wait",
+      "value": "2000"
+    },
+    {
+      "description": "Search for vodka products",
+      "id": "cmd_1764883242752_43_11tnuqshn",
+      "target": {
+        "alternatives": {
+          "placeholder": "Search products"
+        },
+        "primary": "#searchBar",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "type",
+      "value": "vodka"
+    },
+    {
+      "description": "Submit search",
+      "id": "cmd_1764883242752_44_st6yuza76",
+      "target": {
+        "alternatives": {},
+        "primary": "#searchBar",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "keyPress",
+      "value": "Enter"
+    },
+    {
+      "description": "Wait for search results",
+      "id": "cmd_1764883242752_45_p43p8wjjo",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "wait",
+      "value": "2000"
+    },
+    {
+      "description": "[INTENTIONAL FAILURE] Try to click non-existent element",
+      "id": "cmd_1764883242752_46_q742btdtm",
+      "target": {
+        "alternatives": {
+          "css": ".fake-selector-that-will-fail",
+          "xpath": "//button[@id=\"this-does-not-exist\"]"
+        },
+        "primary": "#non-existent-element-12345",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "click",
+      "value": ""
+    },
+    {
+      "description": "[INTENTIONAL FAILURE] Assert text that doesn't exist",
+      "id": "cmd_1764883242752_47_fdp3mu1qb",
+      "target": {
+        "alternatives": {},
+        "primary": "h1",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "assert",
+      "value": "textContains:This text will never be found"
+    },
+    {
+      "description": "Navigate to non-existent page (404 error)",
+      "id": "cmd_1764883242752_48_1nn55jv5y",
+      "target": {
+        "alternatives": {},
+        "primary": "https://ginandjuice.shop/non-existent-page-404",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "navigate",
+      "value": "https://ginandjuice.shop/non-existent-page-404"
+    },
+    {
+      "description": "Verify 404 error page is displayed",
+      "id": "cmd_1764883242752_49_g9qx0qnbb",
+      "target": {
+        "alternatives": {},
+        "primary": "body",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "assert",
+      "value": "textContains:404"
+    }
+  ],
+  "description": "Example flow that intentionally fails to demonstrate error handling",
+  "deviceType": "desktop",
+  "id": "gin_juice_failing_1764883242756",
+  "metadata": {
+    "createdAt": "2025-12-04T21:20:42.752Z",
+    "duration": 0,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "recommendedOptions": {
+      "smartWaits": true
+    },
+    "updatedAt": "2025-12-04T21:20:42.752Z"
+  },
+  "name": "Gin & Juice - Error Handling Demo",
+  "project": "Examples",
+  "tags": [
+    "demo"
+  ],
+  "testDataFileId": "gin_juice_test_data"
+}

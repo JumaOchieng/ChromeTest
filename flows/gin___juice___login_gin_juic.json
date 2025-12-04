@@ -1,0 +1,148 @@
+{
+  "commands": [
+    {
+      "description": "Navigate to Gin and Juice login page",
+      "id": "cmd_1764883242752_1_tg7jiwepp",
+      "target": {
+        "alternatives": {},
+        "primary": "https://ginandjuice.shop/my-account",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "navigate",
+      "value": "https://ginandjuice.shop/my-account"
+    },
+    {
+      "description": "Wait for page to load",
+      "id": "cmd_1764883242752_2_sdd77rrkl",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "wait",
+      "value": "2000"
+    },
+    {
+      "description": "Enter username",
+      "id": "cmd_1764883242752_3_g3vopkhn4",
+      "target": {
+        "alternatives": {
+          "id": "username",
+          "placeholder": "Username"
+        },
+        "primary": "input[name=\"username\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "type",
+      "value": "{{username}}"
+    },
+    {
+      "description": "Submit username",
+      "id": "cmd_1764883242752_4_d1cu946e3",
+      "target": {
+        "alternatives": {
+          "text": "Log in",
+          "xpath": "//button[contains(text(), \"Log in\")]"
+        },
+        "primary": "button[type=\"submit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "click",
+      "value": ""
+    },
+    {
+      "description": "Wait for password page",
+      "id": "cmd_1764883242752_5_m2tgqyeng",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "wait",
+      "value": "2000"
+    },
+    {
+      "description": "Enter password",
+      "id": "cmd_1764883242752_6_67pwswsvq",
+      "target": {
+        "alternatives": {
+          "name": "password",
+          "type": "password"
+        },
+        "primary": "input[name=\"password\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "type",
+      "value": "{{password}}"
+    },
+    {
+      "description": "Submit password",
+      "id": "cmd_1764883242752_7_lfuyvrg1f",
+      "target": {
+        "alternatives": {
+          "text": "Log in",
+          "xpath": "//button[contains(text(), \"Log in\")]"
+        },
+        "primary": "button[type=\"submit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "click",
+      "value": ""
+    },
+    {
+      "description": "Wait for login to complete",
+      "id": "cmd_1764883242752_8_qkzhgkq2q",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "waitForUrlChange",
+      "value": "3000"
+    },
+    {
+      "description": "Verify logged in successfully",
+      "id": "cmd_1764883242752_9_k8l64pxw9",
+      "target": {
+        "alternatives": {},
+        "primary": "h1",
+        "strategy": "css"
+      },
+      "timestamp": 1764883242752,
+      "type": "assert",
+      "value": "textContains:My account"
+    }
+  ],
+  "description": "Example login flow for Gin and Juice demo site",
+  "deviceType": "desktop",
+  "id": "gin_juice_login_1764883242752",
+  "metadata": {
+    "createdAt": "2025-12-04T21:20:42.752Z",
+    "duration": 0,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/gin___juice___login_gin_juic.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "recommendedOptions": {
+      "smartWaits": true
+    },
+    "updatedAt": "2025-12-04T21:20:42.752Z"
+  },
+  "name": "Gin & Juice - Login",
+  "project": "Examples",
+  "tags": [
+    "demo"
+  ],
+  "testDataFileId": "gin_juice_test_data"
+}

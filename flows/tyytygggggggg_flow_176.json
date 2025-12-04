@@ -1,0 +1,321 @@
+{
+  "_optimized": true,
+  "_optimizedSize": 6751,
+  "_originalSize": 12917,
+  "commands": [
+    {
+      "id": "cmd_1764883255151_j9ehwzgyf",
+      "timestamp": 1764883255151,
+      "type": "navigate",
+      "value": "https://betterqa.co/self-healing-demo/"
+    },
+    {
+      "id": "cmd_1764883257649_whyu4m2rb",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883257659_grf0f9zxa",
+          "elementName": "↻ Reset",
+          "status": "new",
+          "timestamp": 1764883257662
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: '↻ Reset' })",
+          "text": "↻ Reset",
+          "xpath": "//button[normalize-space()='↻ Reset']"
+        },
+        "primary": "//button[normalize-space()='↻ Reset']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764883257650,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764883257649_it9yld767",
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: '↻ Reset' })",
+          "text": "↻ Reset",
+          "xpath": "//button[normalize-space()='↻ Reset']"
+        },
+        "primary": "//button[normalize-space()='↻ Reset']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764883257659,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1764883259455_wdlazfxru",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883259521_0vb3rckoq",
+          "elementName": "Username Input",
+          "status": "new",
+          "timestamp": 1764883259604
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter username\"]",
+          "data-testid": "username-input",
+          "id": "username",
+          "playwright": "getByTestId('username-input')",
+          "testId": "username-input",
+          "text": "Username",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+        },
+        "primary": "input[placeholder=\"Enter username\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883259509,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764883259455_0xl2654w3",
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter username\"]",
+          "data-testid": "username-input",
+          "id": "username",
+          "playwright": "getByTestId('username-input')",
+          "testId": "username-input",
+          "text": "Username",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+        },
+        "primary": "input[placeholder=\"Enter username\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883259521,
+      "type": "type",
+      "value": "write"
+    },
+    {
+      "id": "cmd_1764883261255_rxpxax6hx",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883261266_sii1m25qj",
+          "elementName": "Email Input",
+          "status": "new",
+          "timestamp": 1764883261272
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter email\"]",
+          "data-testid": "email-input",
+          "id": "email",
+          "playwright": "getByTestId('email-input')",
+          "testId": "email-input",
+          "text": "Email address",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+        },
+        "primary": "input[placeholder=\"Enter email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883261263,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764883261255_6wf9w4rmb",
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter email\"]",
+          "data-testid": "email-input",
+          "id": "email",
+          "playwright": "getByTestId('email-input')",
+          "testId": "email-input",
+          "text": "Email address",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+        },
+        "primary": "input[placeholder=\"Enter email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883261266,
+      "type": "type",
+      "value": "gideonyuri15@gmail.com"
+    },
+    {
+      "id": "cmd_1764883261952_4jyidz7ak",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883261967_acg1bgmop",
+          "elementName": "Country Select",
+          "status": "new",
+          "timestamp": 1764883261970
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764883261913,
+          "source": "recorder:click"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883261965,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764883263410_vvoyiow74",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883261967_acg1bgmop",
+          "elementName": "Country Select",
+          "similarity": 0.99,
+          "status": "existing",
+          "timestamp": 1764883263420
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764883263374,
+          "source": "recorder:type"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883263412,
+      "type": "type",
+      "value": "uk"
+    },
+    {
+      "id": "cmd_1764883263410_ucjwuc8uf",
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764883263374,
+          "source": "recorder:select"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883263413,
+      "type": "select",
+      "value": "uk"
+    },
+    {
+      "id": "cmd_1764883263410_36kk4goco",
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764883263376,
+          "source": "recorder:click"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764883263414,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1764883264390_44jud3ycg",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883264393_cob463it5",
+          "elementName": "✓ Submit Form",
+          "status": "new",
+          "timestamp": 1764883264403
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "button[type=\"submit\"]",
+          "playwright": "getByRole('button', { name: '✓ Submit Form' })",
+          "text": "✓ Submit Form",
+          "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+        },
+        "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764883264391,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764883264390_ta6mqypq0",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764883264393_cob463it5",
+          "elementName": "✓ Submit Form",
+          "similarity": 0.99,
+          "status": "existing",
+          "timestamp": 1764883264423
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "button[type=\"submit\"]",
+          "playwright": "getByRole('button', { name: '✓ Submit Form' })",
+          "text": "✓ Submit Form",
+          "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+        },
+        "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764883264419,
+      "type": "click"
+    }
+  ],
+  "deviceType": "desktop",
+  "id": "flow_1764883254428_1b0r9u8yh",
+  "metadata": {
+    "createdAt": "2025-12-04T21:20:54.429Z",
+    "duration": 12227,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/tyytygggggggg_flow_176.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "pageCount": 1,
+    "updatedAt": "2025-12-04T21:21:06.656Z",
+    "url": "https://betterqa.co/self-healing-demo/",
+    "viewport": {
+      "height": 732,
+      "width": 1470
+    }
+  },
+  "name": "tyytygggggggg"
+}
