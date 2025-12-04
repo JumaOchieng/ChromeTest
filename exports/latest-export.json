@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "timestamp": "2025-12-04T21:56:34.630Z",
+  "timestamp": "2025-12-04T21:59:18.296Z",
   "flows": [
     {
       "commands": [
@@ -93,7 +93,7 @@
         "createdAt": "2025-12-04T21:50:08.231Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/___tutorial__google_search_chrome_e.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -240,7 +240,7 @@
         "createdAt": "2025-12-04T21:50:08.231Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___login_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -361,7 +361,7 @@
         "createdAt": "2025-12-04T21:50:08.231Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___browse_products_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -445,7 +445,7 @@
         "createdAt": "2025-12-04T21:50:08.231Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___logout_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -586,7 +586,7 @@
         "createdAt": "2025-12-04T21:50:08.231Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -695,7 +695,7 @@
         "createdAt": "2025-12-04T21:45:08.482Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/_____tutorial__google_search_chrome_e.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -969,7 +969,7 @@
         "createdAt": "2025-12-04T21:45:23.587Z",
         "duration": 10956,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/alaotalotalotalot_flow_176.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1088,7 +1088,7 @@
         "createdAt": "2025-12-04T21:45:08.482Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___browse_products_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1229,7 +1229,7 @@
         "createdAt": "2025-12-04T21:45:08.482Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1377,7 +1377,7 @@
         "createdAt": "2025-12-04T21:45:08.482Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___login_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1461,7 +1461,7 @@
         "createdAt": "2025-12-04T21:45:08.482Z",
         "duration": 0,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/gin___juice___logout_gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1784,7 +1784,7 @@
         "createdAt": "2025-12-04T21:20:54.429Z",
         "duration": 12227,
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "flows/tyytygggggggg_flow_176.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1799,6 +1799,33 @@
         }
       },
       "name": "tyytygggggggg"
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 442,
+      "_originalSize": 442,
+      "commands": [
+        {
+          "id": "cmd_1764885511285_qas6j77l7",
+          "timestamp": 1764885511285,
+          "type": "navigate",
+          "value": "https://betterqa.co/self-healing-demo/"
+        }
+      ],
+      "deviceType": "desktop",
+      "id": "flow_1764885510693_cyi46v4ha",
+      "metadata": {
+        "createdAt": "2025-12-04T21:58:30.694Z",
+        "duration": 2668,
+        "pageCount": 1,
+        "updatedAt": "2025-12-04T21:58:33.362Z",
+        "url": "https://betterqa.co/self-healing-demo/",
+        "viewport": {
+          "height": 732,
+          "width": 1470
+        }
+      },
+      "name": "beleievwweqweqweqweqwe"
     }
   ],
   "testSuites": [
@@ -1822,7 +1849,7 @@
       "metadata": {
         "createdAt": "2025-12-04T21:50:08.258Z",
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "suites/___gin___juice___complete_test_suite__pass___fail__gin_juic.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1865,7 +1892,7 @@
       "metadata": {
         "createdAt": "2025-12-04T21:45:47.784Z",
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "suites/alaotalotalotalot_suite_17.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1903,7 +1930,7 @@
       "metadata": {
         "createdAt": "2025-12-04T21:21:38.578Z",
         "gitHubLink": {
-          "branch": "main",
+          "branch": "feature/solid-refactoring",
           "filePath": "suites/ygygygygygyg_suite_17.json",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
           "source": "local",
@@ -1921,6 +1948,41 @@
         "type": "none",
         "warnings": []
       }
+    },
+    {
+      "config": {
+        "aiAnalysis": false,
+        "captureScreenshots": true,
+        "generateReport": true,
+        "parallel": false,
+        "retryCount": 0,
+        "setupFlowId": "",
+        "stopOnFailure": true,
+        "teardownFlowId": "",
+        "timeout": 30000
+      },
+      "flows": [
+        "flow_1764884723586_8cyqjkgds",
+        "chrome_example_1764885008231",
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "id": "suite_1764885528104",
+      "metadata": {
+        "createdAt": "2025-12-04T21:58:48.104Z",
+        "totalRuns": 0,
+        "updatedAt": "2025-12-04T21:58:48.104Z"
+      },
+      "name": "beleievwweqweqweqweqwe",
+      "testData": {
+        "compatibilityStatus": "compatible",
+        "flowTestDataMap": {
+          "chrome_example_1764885008231": "none",
+          "flow_1764883254428_1b0r9u8yh": "none",
+          "flow_1764884723586_8cyqjkgds": "none"
+        },
+        "type": "none",
+        "warnings": []
+      }
     }
   ],
   "savedChains": [
@@ -1932,7 +1994,7 @@
         "metadata": {
           "createdAt": "2025-12-04T21:46:02.157Z",
           "gitHubLink": {
-            "branch": "main",
+            "branch": "feature/solid-refactoring",
             "filePath": "chains/alaotalotalotalot_chain_17.json",
             "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
             "source": "local",
@@ -1983,7 +2045,7 @@
         "metadata": {
           "createdAt": "2025-12-04T21:21:56.247Z",
           "gitHubLink": {
-            "branch": "main",
+            "branch": "feature/solid-refactoring",
             "filePath": "chains/uyuyuyuyuyuyuu_chain_17.json",
             "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
             "source": "local",
@@ -2023,6 +2085,24 @@
       "stopOnFailure": true,
       "suiteIds": [
         "suite_1764883298578"
+      ],
+      "timeoutMs": 300000
+    },
+    {
+      "continueOnFailure": false,
+      "id": "chain_1764885545853",
+      "isolateState": true,
+      "metadata": {
+        "createdAt": "2025-12-04T21:59:05.853Z",
+        "updatedAt": "2025-12-04T21:59:05.853Z"
+      },
+      "name": "beleievwweqweqweqweqwe",
+      "retryCount": 0,
+      "retryFailedSuites": false,
+      "sharedState": false,
+      "stopOnFailure": true,
+      "suiteIds": [
+        "suite_1764885528104"
       ],
       "timeoutMs": 300000
     }
