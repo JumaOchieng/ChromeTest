@@ -254,6 +254,13 @@
   "metadata": {
     "createdAt": "2025-12-04T21:45:23.587Z",
     "duration": 10956,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/alaotalotalotalot_flow_176.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
     "pageCount": 1,
     "updatedAt": "2025-12-04T21:45:34.543Z",
     "url": "https://betterqa.co/self-healing-demo/",

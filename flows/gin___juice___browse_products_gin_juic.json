@@ -100,6 +100,13 @@
   "metadata": {
     "createdAt": "2025-12-04T21:45:08.482Z",
     "duration": 0,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/gin___juice___browse_products_gin_juic.json",
+      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+      "source": "local",
+      "syncStatus": "exported"
+    },
     "recommendedOptions": {
       "smartWaits": true
     },
