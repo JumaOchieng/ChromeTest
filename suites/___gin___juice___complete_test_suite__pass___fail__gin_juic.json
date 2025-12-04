@@ -7,38 +7,31 @@
       "generateReport": true,
       "parallel": false,
       "retryCount": 0,
-      "setupFlowId": "gin_juice_login_1764883242752",
+      "setupFlowId": "gin_juice_login_1764884708482",
       "stopOnFailure": false,
-      "teardownFlowId": "gin_juice_logout_1764883242755",
+      "teardownFlowId": "gin_juice_logout_1764884708485",
       "timeout": 30000
     },
     "flows": [
-      "gin_juice_browse_1764883242753",
-      "gin_juice_failing_1764883242756"
+      "gin_juice_browse_1764884708483",
+      "gin_juice_failing_1764884708486"
     ],
     "id": "gin_juice_suite_example",
     "metadata": {
-      "createdAt": "2025-12-04T21:20:42.759Z",
-      "gitHubLink": {
-        "branch": "main",
-        "filePath": "suites/___gin___juice___complete_test_suite__pass___fail__gin_juic.json",
-        "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-        "source": "local",
-        "syncStatus": "exported"
-      },
+      "createdAt": "2025-12-04T21:45:08.485Z",
       "testDataId": "gin_juice_test_data",
       "totalRuns": 0,
-      "updatedAt": "2025-12-04T21:20:42.759Z"
+      "updatedAt": "2025-12-04T21:45:08.485Z"
     },
     "name": "🧪 Gin & Juice - Complete Test Suite (Pass & Fail)",
     "testData": {
       "compatibilityStatus": "compatible",
       "fileId": "gin_juice_test_data",
       "flowTestDataMap": {
-        "gin_juice_browse_1764883242753": "gin_juice_test_data",
-        "gin_juice_failing_1764883242756": "gin_juice_test_data",
-        "gin_juice_login_1764883242752": "gin_juice_test_data",
-        "gin_juice_logout_1764883242755": "gin_juice_test_data"
+        "gin_juice_browse_1764884708483": "gin_juice_test_data",
+        "gin_juice_failing_1764884708486": "gin_juice_test_data",
+        "gin_juice_login_1764884708482": "gin_juice_test_data",
+        "gin_juice_logout_1764884708485": "gin_juice_test_data"
       },
       "type": "file",
       "warnings": []

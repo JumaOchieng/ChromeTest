@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "suite": {
+    "config": {
+      "aiAnalysis": false,
+      "captureScreenshots": true,
+      "generateReport": true,
+      "parallel": false,
+      "retryCount": 0,
+      "setupFlowId": "",
+      "stopOnFailure": true,
+      "teardownFlowId": "",
+      "timeout": 30000
+    },
+    "flows": [
+      "flow_1764884723586_8cyqjkgds"
+    ],
+    "id": "suite_1764884747784",
+    "metadata": {
+      "createdAt": "2025-12-04T21:45:47.784Z",
+      "totalRuns": 0,
+      "updatedAt": "2025-12-04T21:45:47.784Z"
+    },
+    "name": "alaotalotalotalot",
+    "testData": {
+      "compatibilityStatus": "compatible",
+      "flowTestDataMap": {
+        "flow_1764884723586_8cyqjkgds": "none"
+      },
+      "type": "none",
+      "warnings": []
+    }
+  }
+}
