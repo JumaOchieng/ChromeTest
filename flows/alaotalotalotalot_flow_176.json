@@ -1,0 +1,266 @@
+{
+  "_optimized": true,
+  "_optimizedSize": 5640,
+  "_originalSize": 11239,
+  "commands": [
+    {
+      "id": "cmd_1764884724185_7dn0shs24",
+      "timestamp": 1764884724185,
+      "type": "navigate",
+      "value": "https://betterqa.co/self-healing-demo/"
+    },
+    {
+      "id": "cmd_1764884726341_hf1uuvtvs",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764884726346_dhd9jfyt7",
+          "elementName": "↻ Reset",
+          "status": "new",
+          "timestamp": 1764884726349
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: '↻ Reset' })",
+          "text": "↻ Reset",
+          "xpath": "//button[normalize-space()='↻ Reset']"
+        },
+        "primary": "//button[normalize-space()='↻ Reset']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764884726344,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764884726341_imutqm6u2",
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: '↻ Reset' })",
+          "text": "↻ Reset",
+          "xpath": "//button[normalize-space()='↻ Reset']"
+        },
+        "primary": "//button[normalize-space()='↻ Reset']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1764884726346,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1764884728755_5kttwimg0",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764884728758_tii7n2dak",
+          "elementName": "Username Input",
+          "status": "new",
+          "timestamp": 1764884728762
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter username\"]",
+          "data-testid": "username-input",
+          "id": "username",
+          "playwright": "getByTestId('username-input')",
+          "testId": "username-input",
+          "text": "Username",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+        },
+        "primary": "input[placeholder=\"Enter username\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884728756,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764884728754_wi5i9jea9",
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter username\"]",
+          "data-testid": "username-input",
+          "id": "username",
+          "playwright": "getByTestId('username-input')",
+          "testId": "username-input",
+          "text": "Username",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+        },
+        "primary": "input[placeholder=\"Enter username\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884728758,
+      "type": "type",
+      "value": "bfjdsf"
+    },
+    {
+      "id": "cmd_1764884730324_kuww5o7mq",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764884730342_auzvolrep",
+          "elementName": "Email Input",
+          "status": "new",
+          "timestamp": 1764884730347
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter email\"]",
+          "data-testid": "email-input",
+          "id": "email",
+          "playwright": "getByTestId('email-input')",
+          "testId": "email-input",
+          "text": "Email address",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+        },
+        "primary": "input[placeholder=\"Enter email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884730337,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764884730324_2orgt16k1",
+      "target": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter email\"]",
+          "data-testid": "email-input",
+          "id": "email",
+          "playwright": "getByTestId('email-input')",
+          "testId": "email-input",
+          "text": "Email address",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+        },
+        "primary": "input[placeholder=\"Enter email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884730342,
+      "type": "type",
+      "value": "gideonyuri15@gmail.com"
+    },
+    {
+      "id": "cmd_1764884731024_4xwzfd4ef",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764884731041_i45ioy0ra",
+          "elementName": "Country Select",
+          "status": "new",
+          "timestamp": 1764884731044
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764884730961,
+          "source": "recorder:click"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884731039,
+      "type": "waitForElement",
+      "value": 500
+    },
+    {
+      "id": "cmd_1764884732069_v0x9qszr8",
+      "metadata": {
+        "elementLibraryStatus": {
+          "elementId": "elem_1764884731041_i45ioy0ra",
+          "elementName": "Country Select",
+          "similarity": 0.99,
+          "status": "existing",
+          "timestamp": 1764884732101
+        }
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764884732056,
+          "source": "recorder:type"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884732090,
+      "type": "type",
+      "value": "uk"
+    },
+    {
+      "id": "cmd_1764884732069_ibs5a0hzl",
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764884732058,
+          "source": "recorder:select"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884732091,
+      "type": "select",
+      "value": "uk"
+    },
+    {
+      "id": "cmd_1764884732069_bsqnutygu",
+      "target": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764884732061,
+          "source": "recorder:click"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1764884732092,
+      "type": "click"
+    }
+  ],
+  "deviceType": "desktop",
+  "id": "flow_1764884723586_8cyqjkgds",
+  "metadata": {
+    "createdAt": "2025-12-04T21:45:23.587Z",
+    "duration": 10956,
+    "pageCount": 1,
+    "updatedAt": "2025-12-04T21:45:34.543Z",
+    "url": "https://betterqa.co/self-healing-demo/",
+    "viewport": {
+      "height": 732,
+      "width": 1470
+    }
+  },
+  "name": "alaotalotalotalot"
+}

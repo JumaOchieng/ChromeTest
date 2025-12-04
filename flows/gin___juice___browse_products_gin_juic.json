@@ -2,19 +2,19 @@
   "commands": [
     {
       "description": "Navigate to product catalog",
-      "id": "cmd_1764883242752_8_7no8rh6yd",
+      "id": "cmd_1764884708482_8_3xrykpkbz",
       "target": {
         "alternatives": {},
         "primary": "https://ginandjuice.shop/catalog",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "navigate",
       "value": "https://ginandjuice.shop/catalog"
     },
     {
       "description": "Search for products",
-      "id": "cmd_1764883242752_9_v3htvk904",
+      "id": "cmd_1764884708482_9_0bgewpmnu",
       "target": {
         "alternatives": {
           "name": "searchTerm",
@@ -23,37 +23,37 @@
         "primary": "#searchBar",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "type",
       "value": "{{searchTerm}}"
     },
     {
       "description": "Submit search",
-      "id": "cmd_1764883242752_10_0fkhxtubq",
+      "id": "cmd_1764884708482_10_twohrtl19",
       "target": {
         "alternatives": {},
         "primary": "#searchBar",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "keyPress",
       "value": "Enter"
     },
     {
       "description": "Wait for search results",
-      "id": "cmd_1764883242752_11_y61y8n7sn",
+      "id": "cmd_1764884708482_11_i3ib727ts",
       "target": {
         "alternatives": {},
         "primary": "",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "waitForNetworkIdle",
       "value": "2000"
     },
     {
       "description": "Open product details",
-      "id": "cmd_1764883242752_12_1xgdirlg2",
+      "id": "cmd_1764884708482_12_7lqc74hlu",
       "target": {
         "alternatives": {
           "text": "View details",
@@ -62,13 +62,13 @@
         "primary": "span.button",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "click",
       "value": ""
     },
     {
       "description": "Add product to cart",
-      "id": "cmd_1764883242752_13_65p10vge7",
+      "id": "cmd_1764884708482_13_77wu84iqn",
       "target": {
         "alternatives": {
           "text": "Add to cart",
@@ -77,40 +77,33 @@
         "primary": "button.button[type=\"submit\"]",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "click",
       "value": ""
     },
     {
       "description": "Verify cart has 1 item",
-      "id": "cmd_1764883242752_14_rr9pmzdmz",
+      "id": "cmd_1764884708482_14_0o9u2ychw",
       "target": {
         "alternatives": {},
         "primary": ".cart-count",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "assert",
       "value": "textContains:1"
     }
   ],
   "description": "Example product browsing flow with search and cart",
   "deviceType": "desktop",
-  "id": "gin_juice_browse_1764883242753",
+  "id": "gin_juice_browse_1764884708483",
   "metadata": {
-    "createdAt": "2025-12-04T21:20:42.752Z",
+    "createdAt": "2025-12-04T21:45:08.482Z",
     "duration": 0,
-    "gitHubLink": {
-      "branch": "main",
-      "filePath": "flows/gin___juice___browse_products_gin_juic.json",
-      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-      "source": "local",
-      "syncStatus": "exported"
-    },
     "recommendedOptions": {
       "smartWaits": true
     },
-    "updatedAt": "2025-12-04T21:20:42.752Z"
+    "updatedAt": "2025-12-04T21:45:08.482Z"
   },
   "name": "Gin & Juice - Browse Products",
   "project": "Examples",

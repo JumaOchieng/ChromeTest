@@ -2,31 +2,31 @@
   "commands": [
     {
       "description": "Navigate to catalog page",
-      "id": "cmd_1764883242752_41_slsyzasgc",
+      "id": "cmd_1764884708482_41_2qdyh5gju",
       "target": {
         "alternatives": {},
         "primary": "https://ginandjuice.shop/catalog",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "navigate",
       "value": "https://ginandjuice.shop/catalog"
     },
     {
       "description": "Wait for page to load",
-      "id": "cmd_1764883242752_42_3dwnx7gvo",
+      "id": "cmd_1764884708482_42_v9rct3ny2",
       "target": {
         "alternatives": {},
         "primary": "",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "wait",
       "value": "2000"
     },
     {
       "description": "Search for vodka products",
-      "id": "cmd_1764883242752_43_11tnuqshn",
+      "id": "cmd_1764884708482_43_aoj9e2sz3",
       "target": {
         "alternatives": {
           "placeholder": "Search products"
@@ -34,37 +34,37 @@
         "primary": "#searchBar",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "type",
       "value": "vodka"
     },
     {
       "description": "Submit search",
-      "id": "cmd_1764883242752_44_st6yuza76",
+      "id": "cmd_1764884708482_44_qmb4f3hvk",
       "target": {
         "alternatives": {},
         "primary": "#searchBar",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "keyPress",
       "value": "Enter"
     },
     {
       "description": "Wait for search results",
-      "id": "cmd_1764883242752_45_p43p8wjjo",
+      "id": "cmd_1764884708482_45_yxp1tkf8m",
       "target": {
         "alternatives": {},
         "primary": "",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "wait",
       "value": "2000"
     },
     {
       "description": "[INTENTIONAL FAILURE] Try to click non-existent element",
-      "id": "cmd_1764883242752_46_q742btdtm",
+      "id": "cmd_1764884708482_46_0et0p5cex",
       "target": {
         "alternatives": {
           "css": ".fake-selector-that-will-fail",
@@ -73,64 +73,57 @@
         "primary": "#non-existent-element-12345",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "click",
       "value": ""
     },
     {
       "description": "[INTENTIONAL FAILURE] Assert text that doesn't exist",
-      "id": "cmd_1764883242752_47_fdp3mu1qb",
+      "id": "cmd_1764884708482_47_85blb5hjw",
       "target": {
         "alternatives": {},
         "primary": "h1",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "assert",
       "value": "textContains:This text will never be found"
     },
     {
       "description": "Navigate to non-existent page (404 error)",
-      "id": "cmd_1764883242752_48_1nn55jv5y",
+      "id": "cmd_1764884708482_48_lx3mz6838",
       "target": {
         "alternatives": {},
         "primary": "https://ginandjuice.shop/non-existent-page-404",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "navigate",
       "value": "https://ginandjuice.shop/non-existent-page-404"
     },
     {
       "description": "Verify 404 error page is displayed",
-      "id": "cmd_1764883242752_49_g9qx0qnbb",
+      "id": "cmd_1764884708482_49_o8mo5q0va",
       "target": {
         "alternatives": {},
         "primary": "body",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "assert",
       "value": "textContains:404"
     }
   ],
   "description": "Example flow that intentionally fails to demonstrate error handling",
   "deviceType": "desktop",
-  "id": "gin_juice_failing_1764883242756",
+  "id": "gin_juice_failing_1764884708486",
   "metadata": {
-    "createdAt": "2025-12-04T21:20:42.752Z",
+    "createdAt": "2025-12-04T21:45:08.482Z",
     "duration": 0,
-    "gitHubLink": {
-      "branch": "main",
-      "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
-      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-      "source": "local",
-      "syncStatus": "exported"
-    },
     "recommendedOptions": {
       "smartWaits": true
     },
-    "updatedAt": "2025-12-04T21:20:42.752Z"
+    "updatedAt": "2025-12-04T21:45:08.482Z"
   },
   "name": "Gin & Juice - Error Handling Demo",
   "project": "Examples",

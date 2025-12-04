@@ -2,19 +2,19 @@
   "commands": [
     {
       "description": "Navigate to my account page",
-      "id": "cmd_1764883242752_35_8xtmzca0y",
+      "id": "cmd_1764884708482_35_5k3cakxul",
       "target": {
         "alternatives": {},
         "primary": "https://ginandjuice.shop/my-account",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "navigate",
       "value": "https://ginandjuice.shop/my-account"
     },
     {
       "description": "Hover over account icon to show menu",
-      "id": "cmd_1764883242752_36_xpfdimmbp",
+      "id": "cmd_1764884708482_36_t245blkqr",
       "target": {
         "alternatives": {
           "css": "a.account-icon.is-logged-in",
@@ -23,13 +23,13 @@
         "primary": "a.account-icon.is-logged-in",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "hover",
       "value": ""
     },
     {
       "description": "Click logout link",
-      "id": "cmd_1764883242752_37_u9dx6y5zw",
+      "id": "cmd_1764884708482_37_uax6vowxf",
       "target": {
         "alternatives": {
           "xpath": "//a[normalize-space()='Log out']"
@@ -37,13 +37,13 @@
         "primary": "//a[normalize-space()='Log out']",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "click",
       "value": ""
     },
     {
       "description": "Verify my-account link exists (confirms logout)",
-      "id": "cmd_1764883242752_38_g0tvfbxwm",
+      "id": "cmd_1764884708482_38_jac4n88qy",
       "target": {
         "alternatives": {
           "css": ".secondary-links a[href=\"/my-account\"]",
@@ -52,28 +52,21 @@
         "primary": "a[href=\"/my-account\"]",
         "strategy": "css"
       },
-      "timestamp": 1764883242752,
+      "timestamp": 1764884708482,
       "type": "assert",
       "value": "exists"
     }
   ],
   "description": "Logout flow using hover menu",
   "deviceType": "desktop",
-  "id": "gin_juice_logout_1764883242755",
+  "id": "gin_juice_logout_1764884708485",
   "metadata": {
-    "createdAt": "2025-12-04T21:20:42.752Z",
+    "createdAt": "2025-12-04T21:45:08.482Z",
     "duration": 0,
-    "gitHubLink": {
-      "branch": "main",
-      "filePath": "flows/gin___juice___logout_gin_juic.json",
-      "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-      "source": "local",
-      "syncStatus": "exported"
-    },
     "recommendedOptions": {
       "smartWaits": true
     },
-    "updatedAt": "2025-12-04T21:20:42.752Z"
+    "updatedAt": "2025-12-04T21:45:08.482Z"
   },
   "name": "Gin & Juice - Logout",
   "project": "Examples",
