@@ -12,10 +12,9 @@
         "gitHubLink": {
           "branch": "main",
           "filePath": "chains/uyuyuyuyuyuyuu_chain_17.json",
-          "html_url": "https://github.com/JumaOchieng/ChromeTest/blob/main/chains/uyuyuyuyuyuyuu_chain_17.json",
-          "lastCommitHash": "4cb2bf23c707f4fe847c720f37e740585a87ea16",
           "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
-          "syncStatus": "pushed"
+          "source": "local",
+          "syncStatus": "exported"
         },
         "updatedAt": "2025-12-04T21:51:24.747Z"
       },
