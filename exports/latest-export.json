@@ -1,0 +1,1267 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2025-12-04T21:24:33.915Z",
+  "flows": [
+    {
+      "commands": [
+        {
+          "description": "Navigate to Google",
+          "id": "cmd_1764883242752_1_vzw2srf9n",
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://www.google.com/ncr"
+        },
+        {
+          "description": "Wait for search box",
+          "id": "cmd_1764883242752_2_pxx4h8ktr",
+          "target": {
+            "alternatives": {
+              "css": "#APjFqb",
+              "name": "q",
+              "xpath": "//textarea[@name=\"q\"]"
+            },
+            "primary": "textarea[name=\"q\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "waitForElement",
+          "value": "10000"
+        },
+        {
+          "description": "Type search query",
+          "id": "cmd_1764883242752_3_3ig6oqsw1",
+          "target": {
+            "alternatives": {
+              "css": "#APjFqb",
+              "name": "q"
+            },
+            "primary": "textarea[name=\"q\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "type",
+          "value": "{{searchQuery}}"
+        },
+        {
+          "description": "Submit search",
+          "id": "cmd_1764883242752_4_mfo8g4pk0",
+          "target": {
+            "alternatives": {
+              "css": "#APjFqb",
+              "name": "q",
+              "xpath": "//textarea[@name=\"q\"]"
+            },
+            "primary": "textarea[name=\"q\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "keyPress",
+          "value": "Enter"
+        },
+        {
+          "description": "Wait for search results",
+          "id": "cmd_1764883242752_5_dprapybs0",
+          "target": {
+            "alternatives": {
+              "id": "search",
+              "xpath": "//div[@id=\"search\"]"
+            },
+            "primary": "#search",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "waitForElement",
+          "value": "10000"
+        },
+        {
+          "description": "Verify search results",
+          "id": "cmd_1764883242752_6_d82ltadim",
+          "target": {
+            "alternatives": {},
+            "primary": "#result-stats",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "textContains:{{expectedResults}}"
+        }
+      ],
+      "description": "Example flow showing how to search on Google (uses global variables)",
+      "deviceType": "desktop",
+      "id": "chrome_example_1764883242752",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.752Z",
+        "duration": 0,
+        "recommendedOptions": {
+          "smartWaits": true
+        },
+        "updatedAt": "2025-12-04T21:20:42.752Z"
+      },
+      "name": "📚 Tutorial: Google Search",
+      "project": "Examples",
+      "tags": [
+        "demo"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "description": "Navigate to Gin and Juice login page",
+          "id": "cmd_1764883242752_1_tg7jiwepp",
+          "target": {
+            "alternatives": {},
+            "primary": "https://ginandjuice.shop/my-account",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://ginandjuice.shop/my-account"
+        },
+        {
+          "description": "Wait for page to load",
+          "id": "cmd_1764883242752_2_sdd77rrkl",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "wait",
+          "value": "2000"
+        },
+        {
+          "description": "Enter username",
+          "id": "cmd_1764883242752_3_g3vopkhn4",
+          "target": {
+            "alternatives": {
+              "id": "username",
+              "placeholder": "Username"
+            },
+            "primary": "input[name=\"username\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "type",
+          "value": "{{username}}"
+        },
+        {
+          "description": "Submit username",
+          "id": "cmd_1764883242752_4_d1cu946e3",
+          "target": {
+            "alternatives": {
+              "text": "Log in",
+              "xpath": "//button[contains(text(), \"Log in\")]"
+            },
+            "primary": "button[type=\"submit\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "Wait for password page",
+          "id": "cmd_1764883242752_5_m2tgqyeng",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "wait",
+          "value": "2000"
+        },
+        {
+          "description": "Enter password",
+          "id": "cmd_1764883242752_6_67pwswsvq",
+          "target": {
+            "alternatives": {
+              "name": "password",
+              "type": "password"
+            },
+            "primary": "input[name=\"password\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "type",
+          "value": "{{password}}"
+        },
+        {
+          "description": "Submit password",
+          "id": "cmd_1764883242752_7_lfuyvrg1f",
+          "target": {
+            "alternatives": {
+              "text": "Log in",
+              "xpath": "//button[contains(text(), \"Log in\")]"
+            },
+            "primary": "button[type=\"submit\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "Wait for login to complete",
+          "id": "cmd_1764883242752_8_qkzhgkq2q",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "waitForUrlChange",
+          "value": "3000"
+        },
+        {
+          "description": "Verify logged in successfully",
+          "id": "cmd_1764883242752_9_k8l64pxw9",
+          "target": {
+            "alternatives": {},
+            "primary": "h1",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "textContains:My account"
+        }
+      ],
+      "description": "Example login flow for Gin and Juice demo site",
+      "deviceType": "desktop",
+      "id": "gin_juice_login_1764883242752",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.752Z",
+        "duration": 0,
+        "recommendedOptions": {
+          "smartWaits": true
+        },
+        "updatedAt": "2025-12-04T21:20:42.752Z"
+      },
+      "name": "Gin & Juice - Login",
+      "project": "Examples",
+      "tags": [
+        "demo"
+      ],
+      "testDataFileId": "gin_juice_test_data"
+    },
+    {
+      "commands": [
+        {
+          "description": "Navigate to product catalog",
+          "id": "cmd_1764883242752_8_7no8rh6yd",
+          "target": {
+            "alternatives": {},
+            "primary": "https://ginandjuice.shop/catalog",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://ginandjuice.shop/catalog"
+        },
+        {
+          "description": "Search for products",
+          "id": "cmd_1764883242752_9_v3htvk904",
+          "target": {
+            "alternatives": {
+              "name": "searchTerm",
+              "placeholder": "Search products"
+            },
+            "primary": "#searchBar",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "type",
+          "value": "{{searchTerm}}"
+        },
+        {
+          "description": "Submit search",
+          "id": "cmd_1764883242752_10_0fkhxtubq",
+          "target": {
+            "alternatives": {},
+            "primary": "#searchBar",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "keyPress",
+          "value": "Enter"
+        },
+        {
+          "description": "Wait for search results",
+          "id": "cmd_1764883242752_11_y61y8n7sn",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "waitForNetworkIdle",
+          "value": "2000"
+        },
+        {
+          "description": "Open product details",
+          "id": "cmd_1764883242752_12_1xgdirlg2",
+          "target": {
+            "alternatives": {
+              "text": "View details",
+              "xpath": "//span[contains(@class, \"button\") and normalize-space(text())=\"View details\"]"
+            },
+            "primary": "span.button",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "Add product to cart",
+          "id": "cmd_1764883242752_13_65p10vge7",
+          "target": {
+            "alternatives": {
+              "text": "Add to cart",
+              "xpath": "//button[contains(@class, \"button\") and @type=\"submit\" and contains(normalize-space(.), \"Add to cart\")]"
+            },
+            "primary": "button.button[type=\"submit\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "Verify cart has 1 item",
+          "id": "cmd_1764883242752_14_rr9pmzdmz",
+          "target": {
+            "alternatives": {},
+            "primary": ".cart-count",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "textContains:1"
+        }
+      ],
+      "description": "Example product browsing flow with search and cart",
+      "deviceType": "desktop",
+      "id": "gin_juice_browse_1764883242753",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.752Z",
+        "duration": 0,
+        "recommendedOptions": {
+          "smartWaits": true
+        },
+        "updatedAt": "2025-12-04T21:20:42.752Z"
+      },
+      "name": "Gin & Juice - Browse Products",
+      "project": "Examples",
+      "tags": [
+        "demo"
+      ],
+      "testDataFileId": "gin_juice_test_data"
+    },
+    {
+      "commands": [
+        {
+          "description": "Navigate to my account page",
+          "id": "cmd_1764883242752_35_8xtmzca0y",
+          "target": {
+            "alternatives": {},
+            "primary": "https://ginandjuice.shop/my-account",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://ginandjuice.shop/my-account"
+        },
+        {
+          "description": "Hover over account icon to show menu",
+          "id": "cmd_1764883242752_36_xpfdimmbp",
+          "target": {
+            "alternatives": {
+              "css": "a.account-icon.is-logged-in",
+              "xpath": "//a[contains(@class, \"account-icon\") and contains(@class, \"is-logged-in\")]"
+            },
+            "primary": "a.account-icon.is-logged-in",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "hover",
+          "value": ""
+        },
+        {
+          "description": "Click logout link",
+          "id": "cmd_1764883242752_37_u9dx6y5zw",
+          "target": {
+            "alternatives": {
+              "xpath": "//a[normalize-space()='Log out']"
+            },
+            "primary": "//a[normalize-space()='Log out']",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "Verify my-account link exists (confirms logout)",
+          "id": "cmd_1764883242752_38_g0tvfbxwm",
+          "target": {
+            "alternatives": {
+              "css": ".secondary-links a[href=\"/my-account\"]",
+              "xpath": "//a[@href=\"/my-account\"][contains(text(), \"Log in\")]"
+            },
+            "primary": "a[href=\"/my-account\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "exists"
+        }
+      ],
+      "description": "Logout flow using hover menu",
+      "deviceType": "desktop",
+      "id": "gin_juice_logout_1764883242755",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.752Z",
+        "duration": 0,
+        "recommendedOptions": {
+          "smartWaits": true
+        },
+        "updatedAt": "2025-12-04T21:20:42.752Z"
+      },
+      "name": "Gin & Juice - Logout",
+      "project": "Examples",
+      "tags": [
+        "demo"
+      ],
+      "testDataFileId": "gin_juice_test_data"
+    },
+    {
+      "commands": [
+        {
+          "description": "Navigate to catalog page",
+          "id": "cmd_1764883242752_41_slsyzasgc",
+          "target": {
+            "alternatives": {},
+            "primary": "https://ginandjuice.shop/catalog",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://ginandjuice.shop/catalog"
+        },
+        {
+          "description": "Wait for page to load",
+          "id": "cmd_1764883242752_42_3dwnx7gvo",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "wait",
+          "value": "2000"
+        },
+        {
+          "description": "Search for vodka products",
+          "id": "cmd_1764883242752_43_11tnuqshn",
+          "target": {
+            "alternatives": {
+              "placeholder": "Search products"
+            },
+            "primary": "#searchBar",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "type",
+          "value": "vodka"
+        },
+        {
+          "description": "Submit search",
+          "id": "cmd_1764883242752_44_st6yuza76",
+          "target": {
+            "alternatives": {},
+            "primary": "#searchBar",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "keyPress",
+          "value": "Enter"
+        },
+        {
+          "description": "Wait for search results",
+          "id": "cmd_1764883242752_45_p43p8wjjo",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "wait",
+          "value": "2000"
+        },
+        {
+          "description": "[INTENTIONAL FAILURE] Try to click non-existent element",
+          "id": "cmd_1764883242752_46_q742btdtm",
+          "target": {
+            "alternatives": {
+              "css": ".fake-selector-that-will-fail",
+              "xpath": "//button[@id=\"this-does-not-exist\"]"
+            },
+            "primary": "#non-existent-element-12345",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "click",
+          "value": ""
+        },
+        {
+          "description": "[INTENTIONAL FAILURE] Assert text that doesn't exist",
+          "id": "cmd_1764883242752_47_fdp3mu1qb",
+          "target": {
+            "alternatives": {},
+            "primary": "h1",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "textContains:This text will never be found"
+        },
+        {
+          "description": "Navigate to non-existent page (404 error)",
+          "id": "cmd_1764883242752_48_1nn55jv5y",
+          "target": {
+            "alternatives": {},
+            "primary": "https://ginandjuice.shop/non-existent-page-404",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "navigate",
+          "value": "https://ginandjuice.shop/non-existent-page-404"
+        },
+        {
+          "description": "Verify 404 error page is displayed",
+          "id": "cmd_1764883242752_49_g9qx0qnbb",
+          "target": {
+            "alternatives": {},
+            "primary": "body",
+            "strategy": "css"
+          },
+          "timestamp": 1764883242752,
+          "type": "assert",
+          "value": "textContains:404"
+        }
+      ],
+      "description": "Example flow that intentionally fails to demonstrate error handling",
+      "deviceType": "desktop",
+      "id": "gin_juice_failing_1764883242756",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.752Z",
+        "duration": 0,
+        "recommendedOptions": {
+          "smartWaits": true
+        },
+        "updatedAt": "2025-12-04T21:20:42.752Z"
+      },
+      "name": "Gin & Juice - Error Handling Demo",
+      "project": "Examples",
+      "tags": [
+        "demo"
+      ],
+      "testDataFileId": "gin_juice_test_data"
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 6751,
+      "_originalSize": 12917,
+      "commands": [
+        {
+          "id": "cmd_1764883255151_j9ehwzgyf",
+          "timestamp": 1764883255151,
+          "type": "navigate",
+          "value": "https://betterqa.co/self-healing-demo/"
+        },
+        {
+          "id": "cmd_1764883257649_whyu4m2rb",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883257659_grf0f9zxa",
+              "elementName": "↻ Reset",
+              "status": "new",
+              "timestamp": 1764883257662
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "playwright": "getByRole('button', { name: '↻ Reset' })",
+              "text": "↻ Reset",
+              "xpath": "//button[normalize-space()='↻ Reset']"
+            },
+            "primary": "//button[normalize-space()='↻ Reset']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1764883257650,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1764883257649_it9yld767",
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "playwright": "getByRole('button', { name: '↻ Reset' })",
+              "text": "↻ Reset",
+              "xpath": "//button[normalize-space()='↻ Reset']"
+            },
+            "primary": "//button[normalize-space()='↻ Reset']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1764883257659,
+          "type": "click"
+        },
+        {
+          "id": "cmd_1764883259455_wdlazfxru",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883259521_0vb3rckoq",
+              "elementName": "Username Input",
+              "status": "new",
+              "timestamp": 1764883259604
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter username\"]",
+              "data-testid": "username-input",
+              "id": "username",
+              "playwright": "getByTestId('username-input')",
+              "testId": "username-input",
+              "text": "Username",
+              "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+            },
+            "primary": "input[placeholder=\"Enter username\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883259509,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1764883259455_0xl2654w3",
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter username\"]",
+              "data-testid": "username-input",
+              "id": "username",
+              "playwright": "getByTestId('username-input')",
+              "testId": "username-input",
+              "text": "Username",
+              "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+            },
+            "primary": "input[placeholder=\"Enter username\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883259521,
+          "type": "type",
+          "value": "write"
+        },
+        {
+          "id": "cmd_1764883261255_rxpxax6hx",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883261266_sii1m25qj",
+              "elementName": "Email Input",
+              "status": "new",
+              "timestamp": 1764883261272
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter email\"]",
+              "data-testid": "email-input",
+              "id": "email",
+              "playwright": "getByTestId('email-input')",
+              "testId": "email-input",
+              "text": "Email address",
+              "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+            },
+            "primary": "input[placeholder=\"Enter email\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883261263,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1764883261255_6wf9w4rmb",
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter email\"]",
+              "data-testid": "email-input",
+              "id": "email",
+              "playwright": "getByTestId('email-input')",
+              "testId": "email-input",
+              "text": "Email address",
+              "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+            },
+            "primary": "input[placeholder=\"Enter email\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883261266,
+          "type": "type",
+          "value": "gideonyuri15@gmail.com"
+        },
+        {
+          "id": "cmd_1764883261952_4jyidz7ak",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883261967_acg1bgmop",
+              "elementName": "Country Select",
+              "status": "new",
+              "timestamp": 1764883261970
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-testid=\"country-select\"]",
+              "data-testid": "country-select",
+              "id": "country",
+              "playwright": "getByTestId('country-select')",
+              "testId": "country-select",
+              "text": "Country selection",
+              "xpath": "//div[contains(@class, 'form-group')]/select"
+            },
+            "metadata": {
+              "generatedAt": 1764883261913,
+              "source": "recorder:click"
+            },
+            "primary": "[data-testid=\"country-select\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883261965,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1764883263410_vvoyiow74",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883261967_acg1bgmop",
+              "elementName": "Country Select",
+              "similarity": 0.99,
+              "status": "existing",
+              "timestamp": 1764883263420
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-testid=\"country-select\"]",
+              "data-testid": "country-select",
+              "id": "country",
+              "playwright": "getByTestId('country-select')",
+              "testId": "country-select",
+              "text": "Country selection",
+              "xpath": "//div[contains(@class, 'form-group')]/select"
+            },
+            "metadata": {
+              "generatedAt": 1764883263374,
+              "source": "recorder:type"
+            },
+            "primary": "[data-testid=\"country-select\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883263412,
+          "type": "type",
+          "value": "uk"
+        },
+        {
+          "id": "cmd_1764883263410_ucjwuc8uf",
+          "target": {
+            "alternatives": {
+              "css": "[data-testid=\"country-select\"]",
+              "data-testid": "country-select",
+              "id": "country",
+              "playwright": "getByTestId('country-select')",
+              "testId": "country-select",
+              "text": "Country selection",
+              "xpath": "//div[contains(@class, 'form-group')]/select"
+            },
+            "metadata": {
+              "generatedAt": 1764883263374,
+              "source": "recorder:select"
+            },
+            "primary": "[data-testid=\"country-select\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883263413,
+          "type": "select",
+          "value": "uk"
+        },
+        {
+          "id": "cmd_1764883263410_36kk4goco",
+          "target": {
+            "alternatives": {
+              "css": "[data-testid=\"country-select\"]",
+              "data-testid": "country-select",
+              "id": "country",
+              "playwright": "getByTestId('country-select')",
+              "testId": "country-select",
+              "text": "Country selection",
+              "xpath": "//div[contains(@class, 'form-group')]/select"
+            },
+            "metadata": {
+              "generatedAt": 1764883263376,
+              "source": "recorder:click"
+            },
+            "primary": "[data-testid=\"country-select\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1764883263414,
+          "type": "click"
+        },
+        {
+          "id": "cmd_1764883264390_44jud3ycg",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883264393_cob463it5",
+              "elementName": "✓ Submit Form",
+              "status": "new",
+              "timestamp": 1764883264403
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "button[type=\"submit\"]",
+              "playwright": "getByRole('button', { name: '✓ Submit Form' })",
+              "text": "✓ Submit Form",
+              "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+            },
+            "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1764883264391,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1764883264390_ta6mqypq0",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1764883264393_cob463it5",
+              "elementName": "✓ Submit Form",
+              "similarity": 0.99,
+              "status": "existing",
+              "timestamp": 1764883264423
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "button[type=\"submit\"]",
+              "playwright": "getByRole('button', { name: '✓ Submit Form' })",
+              "text": "✓ Submit Form",
+              "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+            },
+            "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1764883264419,
+          "type": "click"
+        }
+      ],
+      "deviceType": "desktop",
+      "id": "flow_1764883254428_1b0r9u8yh",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:54.429Z",
+        "duration": 12227,
+        "pageCount": 1,
+        "updatedAt": "2025-12-04T21:21:06.656Z",
+        "url": "https://betterqa.co/self-healing-demo/",
+        "viewport": {
+          "height": 732,
+          "width": 1470
+        }
+      },
+      "name": "tyytygggggggg"
+    }
+  ],
+  "testSuites": [
+    {
+      "config": {
+        "aiAnalysis": false,
+        "captureScreenshots": true,
+        "generateReport": true,
+        "parallel": false,
+        "retryCount": 0,
+        "setupFlowId": "gin_juice_login_1764883242752",
+        "stopOnFailure": false,
+        "teardownFlowId": "gin_juice_logout_1764883242755",
+        "timeout": 30000
+      },
+      "flows": [
+        "gin_juice_browse_1764883242753",
+        "gin_juice_failing_1764883242756"
+      ],
+      "id": "gin_juice_suite_example",
+      "metadata": {
+        "createdAt": "2025-12-04T21:20:42.759Z",
+        "testDataId": "gin_juice_test_data",
+        "totalRuns": 0,
+        "updatedAt": "2025-12-04T21:20:42.759Z"
+      },
+      "name": "🧪 Gin & Juice - Complete Test Suite (Pass & Fail)",
+      "testData": {
+        "compatibilityStatus": "compatible",
+        "fileId": "gin_juice_test_data",
+        "flowTestDataMap": {
+          "gin_juice_browse_1764883242753": "gin_juice_test_data",
+          "gin_juice_failing_1764883242756": "gin_juice_test_data",
+          "gin_juice_login_1764883242752": "gin_juice_test_data",
+          "gin_juice_logout_1764883242755": "gin_juice_test_data"
+        },
+        "type": "file",
+        "warnings": []
+      }
+    },
+    {
+      "config": {
+        "aiAnalysis": false,
+        "captureScreenshots": true,
+        "generateReport": true,
+        "parallel": false,
+        "retryCount": 0,
+        "setupFlowId": "",
+        "stopOnFailure": true,
+        "teardownFlowId": "",
+        "timeout": 30000
+      },
+      "flows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "id": "suite_1764883298578",
+      "metadata": {
+        "createdAt": "2025-12-04T21:21:38.578Z",
+        "totalRuns": 0,
+        "updatedAt": "2025-12-04T21:21:38.584Z"
+      },
+      "name": "ygygygygygyg",
+      "testData": {
+        "compatibilityStatus": "compatible",
+        "flowTestDataMap": {
+          "flow_1764883254428_1b0r9u8yh": "none"
+        },
+        "type": "none",
+        "warnings": []
+      }
+    }
+  ],
+  "savedChains": [
+    {
+      "continueOnFailure": false,
+      "id": "chain_1764883316247",
+      "isolateState": true,
+      "metadata": {
+        "createdAt": "2025-12-04T21:21:56.247Z",
+        "updatedAt": "2025-12-04T21:21:56.255Z"
+      },
+      "name": "uyuyuyuyuyuyuu",
+      "retryCount": 0,
+      "retryFailedSuites": false,
+      "sharedState": false,
+      "stopOnFailure": true,
+      "suiteIds": [
+        "suite_1764883298578"
+      ],
+      "timeoutMs": 300000
+    }
+  ],
+  "elementLibrary": [
+    {
+      "createdAt": 1764883257659,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "type": "button"
+          },
+          "tagName": "button",
+          "text": "↻ Reset"
+        },
+        "fingerprint": "7ca020f1",
+        "flowId": "flow_1764883254428_1b0r9u8yh",
+        "initialCommandId": "cmd_1764883257649_whyu4m2rb",
+        "selectorPrimary": "//button[normalize-space()='↻ Reset']",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded button element • Text: \"↻ Reset\"",
+      "id": "elem_1764883257659_grf0f9zxa",
+      "lastUsed": 1764883257659,
+      "name": "↻ Reset",
+      "selector": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: '↻ Reset' })",
+          "text": "↻ Reset",
+          "xpath": "//button[normalize-space()='↻ Reset']"
+        },
+        "primary": "//button[normalize-space()='↻ Reset']",
+        "strategy": "xpath"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "button"
+      ],
+      "updatedAt": 1764883257662,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1764883257649_whyu4m2rb"
+      ],
+      "usedInFlows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "validation": {
+        "lastChecked": 1764883257659,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    },
+    {
+      "createdAt": 1764883259521,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "aria-label": "Username",
+            "data-field-type": "username",
+            "data-gtm-form-interact-field-id": "0",
+            "data-testid": "username-input",
+            "id": "username",
+            "name": "username",
+            "placeholder": "Enter username",
+            "role": "textbox",
+            "type": "text"
+          },
+          "tagName": "input"
+        },
+        "fingerprint": "42b63e14",
+        "flowId": "flow_1764883254428_1b0r9u8yh",
+        "initialCommandId": "cmd_1764883259455_wdlazfxru",
+        "selectorPrimary": "input[placeholder=\"Enter username\"]",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded input element",
+      "id": "elem_1764883259521_0vb3rckoq",
+      "lastUsed": 1764883259521,
+      "name": "Username Input",
+      "selector": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter username\"]",
+          "data-testid": "username-input",
+          "id": "username",
+          "playwright": "getByTestId('username-input')",
+          "testId": "username-input",
+          "text": "Username",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[1]/input"
+        },
+        "primary": "input[placeholder=\"Enter username\"]",
+        "strategy": "css"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "input",
+        "test-id"
+      ],
+      "updatedAt": 1764883259603,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1764883259455_wdlazfxru"
+      ],
+      "usedInFlows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "validation": {
+        "lastChecked": 1764883259521,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    },
+    {
+      "createdAt": 1764883261266,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "aria-label": "Email address",
+            "data-field-type": "email",
+            "data-gtm-form-interact-field-id": "1",
+            "data-testid": "email-input",
+            "id": "email",
+            "name": "email",
+            "placeholder": "Enter email",
+            "role": "textbox",
+            "type": "email"
+          },
+          "tagName": "input"
+        },
+        "fingerprint": "3479e4be",
+        "flowId": "flow_1764883254428_1b0r9u8yh",
+        "initialCommandId": "cmd_1764883261255_rxpxax6hx",
+        "selectorPrimary": "input[placeholder=\"Enter email\"]",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded input element",
+      "id": "elem_1764883261266_sii1m25qj",
+      "lastUsed": 1764883261266,
+      "name": "Email Input",
+      "selector": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter email\"]",
+          "data-testid": "email-input",
+          "id": "email",
+          "playwright": "getByTestId('email-input')",
+          "testId": "email-input",
+          "text": "Email address",
+          "xpath": "//html/body/div[2]/div/div/div/div/div/div[4]/form/div[2]/input"
+        },
+        "primary": "input[placeholder=\"Enter email\"]",
+        "strategy": "css"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "input",
+        "test-id"
+      ],
+      "updatedAt": 1764883261272,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1764883261255_rxpxax6hx"
+      ],
+      "usedInFlows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "validation": {
+        "lastChecked": 1764883261266,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    },
+    {
+      "createdAt": 1764883261967,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "aria-label": "Country selection",
+            "data-field-type": "country",
+            "data-gtm-form-interact-field-id": "2",
+            "data-testid": "country-select",
+            "id": "country",
+            "name": "country",
+            "role": "combobox"
+          },
+          "tagName": "select",
+          "text": "Select country... United States United Kingdom ..."
+        },
+        "fingerprint": "117b214e",
+        "flowId": "flow_1764883254428_1b0r9u8yh",
+        "initialCommandId": "cmd_1764883261952_4jyidz7ak",
+        "selectorPrimary": "[data-testid=\"country-select\"]",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded select element • Text: \"Select country... United States United Kingdom ...\"",
+      "id": "elem_1764883261967_acg1bgmop",
+      "lastUsed": 1764883261967,
+      "name": "Country Select",
+      "selector": {
+        "alternatives": {
+          "css": "[data-testid=\"country-select\"]",
+          "data-testid": "country-select",
+          "id": "country",
+          "playwright": "getByTestId('country-select')",
+          "testId": "country-select",
+          "text": "Country selection",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "generatedAt": 1764883261913,
+          "source": "recorder:click"
+        },
+        "primary": "[data-testid=\"country-select\"]",
+        "strategy": "css"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "select",
+        "test-id"
+      ],
+      "updatedAt": 1764883263417,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1764883261952_4jyidz7ak",
+        "cmd_1764883263410_vvoyiow74"
+      ],
+      "usedInFlows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "validation": {
+        "lastChecked": 1764883261967,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    },
+    {
+      "createdAt": 1764883264393,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "type": "submit"
+          },
+          "tagName": "button",
+          "text": "✓ Submit Form"
+        },
+        "fingerprint": "358d9cee",
+        "flowId": "flow_1764883254428_1b0r9u8yh",
+        "initialCommandId": "cmd_1764883264390_44jud3ycg",
+        "selectorPrimary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded button element • Text: \"✓ Submit Form\"",
+      "id": "elem_1764883264393_cob463it5",
+      "lastUsed": 1764883264393,
+      "name": "✓ Submit Form",
+      "selector": {
+        "alternatives": {
+          "css": "button[type=\"submit\"]",
+          "playwright": "getByRole('button', { name: '✓ Submit Form' })",
+          "text": "✓ Submit Form",
+          "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+        },
+        "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "strategy": "xpath"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "button"
+      ],
+      "updatedAt": 1764883264421,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1764883264390_44jud3ycg",
+        "cmd_1764883264390_ta6mqypq0"
+      ],
+      "usedInFlows": [
+        "flow_1764883254428_1b0r9u8yh"
+      ],
+      "validation": {
+        "lastChecked": 1764883264393,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    }
+  ]
+}
