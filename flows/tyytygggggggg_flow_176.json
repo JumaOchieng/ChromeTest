@@ -14,7 +14,7 @@
       "metadata": {
         "elementLibraryStatus": {
           "elementId": "elem_1764883257659_grf0f9zxa",
-          "elementName": "↻ Reset",
+          "elementName": "â» Reset",
           "status": "new",
           "timestamp": 1764883257662
         }
@@ -22,11 +22,11 @@
       "target": {
         "alternatives": {
           "css": "[data-gtm-form-interact-id=\"0\"]",
-          "playwright": "getByRole('button', { name: '↻ Reset' })",
-          "text": "↻ Reset",
-          "xpath": "//button[normalize-space()='↻ Reset']"
+          "playwright": "getByRole('button', { name: 'â» Reset' })",
+          "text": "â» Reset",
+          "xpath": "//button[normalize-space()='â» Reset']"
         },
-        "primary": "//button[normalize-space()='↻ Reset']",
+        "primary": "//button[normalize-space()='â» Reset']",
         "strategy": "xpath"
       },
       "timestamp": 1764883257650,
@@ -38,11 +38,11 @@
       "target": {
         "alternatives": {
           "css": "[data-gtm-form-interact-id=\"0\"]",
-          "playwright": "getByRole('button', { name: '↻ Reset' })",
-          "text": "↻ Reset",
-          "xpath": "//button[normalize-space()='↻ Reset']"
+          "playwright": "getByRole('button', { name: 'â» Reset' })",
+          "text": "â» Reset",
+          "xpath": "//button[normalize-space()='â» Reset']"
         },
-        "primary": "//button[normalize-space()='↻ Reset']",
+        "primary": "//button[normalize-space()='â» Reset']",
         "strategy": "xpath"
       },
       "timestamp": 1764883257659,
@@ -253,7 +253,7 @@
       "metadata": {
         "elementLibraryStatus": {
           "elementId": "elem_1764883264393_cob463it5",
-          "elementName": "✓ Submit Form",
+          "elementName": "â Submit Form",
           "status": "new",
           "timestamp": 1764883264403
         }
@@ -261,11 +261,11 @@
       "target": {
         "alternatives": {
           "css": "button[type=\"submit\"]",
-          "playwright": "getByRole('button', { name: '✓ Submit Form' })",
-          "text": "✓ Submit Form",
-          "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+          "playwright": "getByRole('button', { name: 'â Submit Form' })",
+          "text": "â Submit Form",
+          "xpath": "//button[@type='submit'][normalize-space()='â Submit Form']"
         },
-        "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "primary": "//button[@type='submit'][normalize-space()='â Submit Form']",
         "strategy": "xpath"
       },
       "timestamp": 1764883264391,
@@ -277,7 +277,7 @@
       "metadata": {
         "elementLibraryStatus": {
           "elementId": "elem_1764883264393_cob463it5",
-          "elementName": "✓ Submit Form",
+          "elementName": "â Submit Form",
           "similarity": 0.99,
           "status": "existing",
           "timestamp": 1764883264423
@@ -286,11 +286,11 @@
       "target": {
         "alternatives": {
           "css": "button[type=\"submit\"]",
-          "playwright": "getByRole('button', { name: '✓ Submit Form' })",
-          "text": "✓ Submit Form",
-          "xpath": "//button[@type='submit'][normalize-space()='✓ Submit Form']"
+          "playwright": "getByRole('button', { name: 'â Submit Form' })",
+          "text": "â Submit Form",
+          "xpath": "//button[@type='submit'][normalize-space()='â Submit Form']"
         },
-        "primary": "//button[@type='submit'][normalize-space()='✓ Submit Form']",
+        "primary": "//button[@type='submit'][normalize-space()='â Submit Form']",
         "strategy": "xpath"
       },
       "timestamp": 1764883264419,

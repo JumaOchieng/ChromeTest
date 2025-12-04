@@ -14,7 +14,7 @@
       "metadata": {
         "elementLibraryStatus": {
           "elementId": "elem_1764884726346_dhd9jfyt7",
-          "elementName": "↻ Reset",
+          "elementName": "â» Reset",
           "status": "new",
           "timestamp": 1764884726349
         }
@@ -22,11 +22,11 @@
       "target": {
         "alternatives": {
           "css": "[data-gtm-form-interact-id=\"0\"]",
-          "playwright": "getByRole('button', { name: '↻ Reset' })",
-          "text": "↻ Reset",
-          "xpath": "//button[normalize-space()='↻ Reset']"
+          "playwright": "getByRole('button', { name: 'â» Reset' })",
+          "text": "â» Reset",
+          "xpath": "//button[normalize-space()='â» Reset']"
         },
-        "primary": "//button[normalize-space()='↻ Reset']",
+        "primary": "//button[normalize-space()='â» Reset']",
         "strategy": "xpath"
       },
       "timestamp": 1764884726344,
@@ -38,11 +38,11 @@
       "target": {
         "alternatives": {
           "css": "[data-gtm-form-interact-id=\"0\"]",
-          "playwright": "getByRole('button', { name: '↻ Reset' })",
-          "text": "↻ Reset",
-          "xpath": "//button[normalize-space()='↻ Reset']"
+          "playwright": "getByRole('button', { name: 'â» Reset' })",
+          "text": "â» Reset",
+          "xpath": "//button[normalize-space()='â» Reset']"
         },
-        "primary": "//button[normalize-space()='↻ Reset']",
+        "primary": "//button[normalize-space()='â» Reset']",
         "strategy": "xpath"
       },
       "timestamp": 1764884726346,
