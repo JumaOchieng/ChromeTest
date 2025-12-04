@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "timestamp": "2025-12-04T21:24:33.915Z",
+  "timestamp": "2025-12-04T21:37:46.806Z",
   "flows": [
     {
       "commands": [
@@ -92,6 +92,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.752Z",
         "duration": 0,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/___tutorial__google_search_chrome_e.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "recommendedOptions": {
           "smartWaits": true
         },
@@ -232,6 +239,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.752Z",
         "duration": 0,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/gin___juice___login_gin_juic.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "recommendedOptions": {
           "smartWaits": true
         },
@@ -346,6 +360,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.752Z",
         "duration": 0,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/gin___juice___browse_products_gin_juic.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "recommendedOptions": {
           "smartWaits": true
         },
@@ -423,6 +444,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.752Z",
         "duration": 0,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/gin___juice___logout_gin_juic.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "recommendedOptions": {
           "smartWaits": true
         },
@@ -557,6 +585,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.752Z",
         "duration": 0,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/gin___juice___error_handling_demo_gin_juic.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "recommendedOptions": {
           "smartWaits": true
         },
@@ -873,6 +908,13 @@
       "metadata": {
         "createdAt": "2025-12-04T21:20:54.429Z",
         "duration": 12227,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/tyytygggggggg_flow_176.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "pageCount": 1,
         "updatedAt": "2025-12-04T21:21:06.656Z",
         "url": "https://betterqa.co/self-healing-demo/",
@@ -904,6 +946,13 @@
       "id": "gin_juice_suite_example",
       "metadata": {
         "createdAt": "2025-12-04T21:20:42.759Z",
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "suites/___gin___juice___complete_test_suite__pass___fail__gin_juic.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "testDataId": "gin_juice_test_data",
         "totalRuns": 0,
         "updatedAt": "2025-12-04T21:20:42.759Z"
@@ -940,6 +989,13 @@
       "id": "suite_1764883298578",
       "metadata": {
         "createdAt": "2025-12-04T21:21:38.578Z",
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "suites/ygygygygygyg_suite_17.json",
+          "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "totalRuns": 0,
         "updatedAt": "2025-12-04T21:21:38.584Z"
       },
@@ -956,6 +1012,31 @@
   ],
   "savedChains": [
     {
+      "config": {
+        "continueOnFailure": false,
+        "id": "chain_1764883316247",
+        "isolateState": true,
+        "metadata": {
+          "createdAt": "2025-12-04T21:21:56.247Z",
+          "gitHubLink": {
+            "branch": "main",
+            "filePath": "chains/uyuyuyuyuyuyuu_chain_17.json",
+            "repoUrl": "https://github.com/JumaOchieng/ChromeTest",
+            "source": "local",
+            "syncStatus": "exported"
+          },
+          "updatedAt": "2025-12-04T21:21:56.255Z"
+        },
+        "name": "uyuyuyuyuyuyuu",
+        "retryCount": 0,
+        "retryFailedSuites": false,
+        "sharedState": false,
+        "stopOnFailure": true,
+        "suiteIds": [
+          "suite_1764883298578"
+        ],
+        "timeoutMs": 300000
+      },
       "continueOnFailure": false,
       "id": "chain_1764883316247",
       "isolateState": true,
